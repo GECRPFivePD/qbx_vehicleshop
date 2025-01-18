@@ -26,7 +26,7 @@ return {
         models = {
             -- zentorno = {'pdm', 'luxury'},
 
-            oppressor = 'luxury',
+            --oppressor = 'luxury',
             --- Sports
             alpha = 'luxury',
             banshee = 'luxury',
