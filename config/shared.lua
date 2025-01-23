@@ -20,6 +20,7 @@ return {
         categories = {
             boats = 'boats',
             air = 'air',
+            police = 'police',
             -- super = {'pdm', 'luxury'},
         },
 
@@ -28,6 +29,9 @@ return {
 
             --oppressor = 'luxury',
             --- Sports
+            --police
+            nkstx = 'police',
+
             alpha = 'luxury',
             banshee = 'luxury',
             bestiagts = 'luxury',
@@ -109,6 +113,7 @@ return {
 
             --- Super
             adder = 'luxury',
+            nkstainer = 'police',
             autarch = 'luxury',
             banshee2 = 'luxury',
             bullet = 'luxury',
@@ -215,10 +220,7 @@ return {
         },
 
         blocklist = {
-            'police',
-            'police2',
-            'police3',
-            'police4',
+
         }
     },
 
@@ -330,7 +332,46 @@ return {
                 [6] = {coords = vec4(-1249.21, -362.97, 35.91, 53.24), vehicle = 'penetrator'},
             }
         },
-
+        police = {
+            type = 'free-use',
+            job = 'police',
+            zone = {
+                shape = {
+                    vec3(431.35, -973.85, 25.7),
+                    vec3(439.87, -973.83, 25.7),
+                    vec3(439.9, -977.93, 25.7),
+                    vec3(431.25, -978.17, 25.7),
+                    --[[vec3(-1270.5701904297, -368.6716003418, 36.91),
+                    vec3(-1266.0561523438, -375.14080810547, 36.91),
+                    vec3(-1244.3684082031, -362.70278930664, 36.91),
+                    vec3(-1249.8704833984, -352.03326416016, 36.91),
+                    vec3(-1252.9503173828, -345.85726928711, 36.91)]]
+                },
+                size = vec3(3, 3, 4),
+                targetDistance = 1,
+            },
+            blip = {
+                label = 'Police Shop',
+                coords = vec3(435.56, -975.91, 24.98),
+                show = false,
+                sprite = 326,
+                color = 3,
+            },
+            categories = {
+                police = "police"
+            },
+            testDrive = {
+                limit = 5.0,
+                endBehavior = 'return'
+            },
+            returnLocation = vec3(-1231.46, -349.86, 37.33),
+            vehicleSpawns = {
+                vec4(425.57, -981.54, 24.98, 271.1),
+            },
+            showroomVehicles = {
+                [1] = {coords = vec4(435.56, -975.91, 24.98, 269.67), vehicle = 'nkstanier'},
+            }
+        },
         boats = {
             type = 'free-use',
             zone = {
