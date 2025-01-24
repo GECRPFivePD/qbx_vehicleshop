@@ -29,9 +29,6 @@ return {
 
             --oppressor = 'luxury',
             --- Sports
-            --police
-            nkstx = 'police',
-
             alpha = 'luxury',
             banshee = 'luxury',
             bestiagts = 'luxury',
@@ -113,7 +110,6 @@ return {
 
             --- Super
             adder = 'luxury',
-            nkstainer = 'police',
             autarch = 'luxury',
             banshee2 = 'luxury',
             bullet = 'luxury',
@@ -167,6 +163,30 @@ return {
             zentorno = 'luxury',
             zorrusso = 'luxury',
 
+            --- Police
+            nkstanier = 'police',
+            nkaleutian = 'police',
+            nkbison = 'police',
+            nkbuffalos = 'police',
+            nkcavalcade3 = 'police',
+            nkcomet6 = 'police',
+            nkgranger2 = 'police',
+            nkstx = 'police',
+            nkterminus = 'police',
+            nktorrence = 'police',
+            nktransporter = 'police',
+            nkvigero2 = 'police',
+            nkspeedbhell = 'police',
+            nkspeedcoqd10 = 'police',
+            nkspeeddom = 'police',
+            nkspeeddomgt4 = 'police',
+            nkspeedegt = 'police',
+            nkspeedevx = 'police',
+            nkspeedtmp1 = 'police',
+            nkspeedvct = 'police',
+            nkspeedvig1 = 'police',
+            nkspeedzen1 = 'police',
+            
             --- Boats
             squalo = 'boats',
             marquis = 'boats',
