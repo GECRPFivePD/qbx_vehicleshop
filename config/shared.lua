@@ -21,7 +21,7 @@ return {
             boats = 'boats',
             air = 'air',
             police = 'police',
-            -- super = {'pdm', 'luxury'},
+            super = {'pdm', 'luxury'},
         },
 
         models = {
