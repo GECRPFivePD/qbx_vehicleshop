@@ -5,12 +5,12 @@ local allowedVehicles = require 'server.vehicles'
 ---@param shop string? Shop name to check if vehicle is allowed in that shop
 ---@return boolean
 function CheckVehicleList(vehicle, shop)
-    print("Checking... " .. vehicle)
+    --print("Checking... " .. vehicle)
     for i = 1, allowedVehicles.count do
         local allowedVeh = allowedVehicles.vehicles[i]
         if allowedVeh.model == vehicle then
-            print("shop: " .. shop .. " | allowedVeh.shop: " .. allowedVeh.shopType)
-            print(json.encode(allowedVeh))
+            --print("shop: " .. shop .. " | allowedVeh.shop: " .. allowedVeh.shopType)
+            --print(json.encode(allowedVeh))
             if shop and allowedVeh.shopType == shop then
                 return true
             elseif not shop then
